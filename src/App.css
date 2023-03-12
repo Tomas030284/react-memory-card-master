@@ -1,0 +1,47 @@
+.app {
+  background-color: #f2f2f2;
+  height: 115vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container {
+  width: 1000px;
+  height: 800px;
+}
+
+.card {
+  display: inline-block;
+  margin: 5px;
+  height: calc(200px - 10px);
+  width: calc(250px - 10px);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(0.98);
+}
+
+.card-image {
+  height: calc(200px - 10px);
+  width: calc(250px - 10px);
+  border: 1px solid black;
+}
+
+.card-label {
+  height: calc(195px - 10px);
+  width: calc(245px - 10px);
+
+  border: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+
+  resize: none;
+  pointer-events: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
